@@ -6,7 +6,7 @@ import TodoContent from './components/TodoContent'
 
 import { TodoItem, Status } from './type'
 
-function App() {
+const App = () => {
   const [todos, setTodos] = useStorage<TodoItem[]>('todos', []);
   const [searchValue, setSearchValue] = useState<string>(`${Status.IS_CREATE},${Status.IS_DONE}`)
 

@@ -13,7 +13,7 @@ const { Group } = Radio
 const options = [
   { label: '全部', value: `${Status.IS_CREATE},${Status.IS_DONE}` },
   { label: '未完成', value: `${Status.IS_CREATE}` },
-  { label: '已完成', value: `${Status.IS_DONE}` },
+  { label: '已完成', value: `${Status.IS_DONE}` }
 ]
 
 const TodoFilter: React.FC<TodoFilter> = (props) => {
